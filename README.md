@@ -2,6 +2,11 @@
 
 Default templates for SAP open source repositories, including LICENSE, .reuse/dep5, Code of Conduct, etc... All repositories on github.com/SAP will be created based on this template.
 
+## Repository Automation
+
+This template does not maintain GitHub Actions workflows or Actions dependency updates.
+Projects created from it should add automation only for their build, test, publishing, or deployment needs, and apply workflow security checks when adding workflows.
+
 ## To-Do
 
 In case you are the maintainer of a new SAP open source project, these are the steps to do with the template files:

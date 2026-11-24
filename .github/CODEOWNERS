@@ -1,4 +1,4 @@
-# Review owners for CI and build configuration.
+# Review owners for repository configuration and community files.
 /.github/ @ajinkyapatil8190
 
 # When creating a project from this template, assign a repository team with write access.
