@@ -1,0 +1,10 @@
+# Review owners for repository configuration and community files.
+/.github/ @ajinkyapatil8190
+
+# When creating a project from this template, assign a repository team with write access.
+# Replace the seed maintainer above with that team.
+# /.github/ @your-org/repository-team
+# /scripts/ @your-org/repository-team
+# /Dockerfile* @your-org/repository-team
+# /package*.json @your-org/repository-team
+# /renovate.json @your-org/repository-team
