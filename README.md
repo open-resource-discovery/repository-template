@@ -43,3 +43,12 @@ We as members, contributors, and leaders pledge to make participation in our com
 ## Licensing
 
 Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+
+
+## Security baseline for new automation
+
+Before adding workflows, apply the [organization maintainer checklist](https://github.com/open-resource-discovery/.github/pull/9).
+Use read-only defaults, immutable Action pins, protected CI review, and isolated PR validation without publishing credentials.
+Keep dependency lockfiles, select a supported package-manager version, apply a two-day package-age gate, and review required install scripts.
+Configure secret scanning, push protection, release environments, and branch/tag rules in GitHub settings.
+The template intentionally adds no workflows or package configuration until a consumer needs them.
